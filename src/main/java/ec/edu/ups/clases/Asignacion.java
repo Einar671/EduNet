@@ -41,4 +41,13 @@ public class Asignacion {
     public void setRol(Rol rol) {
         this.rol = rol;
     }
+
+    @Override
+    public String toString() {
+        return "Asignacion{" +
+                "persona=" + persona +
+                ", fechaDeInicio=" + fechaDeInicio +
+                ", rol=" + rol +
+                '}';
+    }
 }

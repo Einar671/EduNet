@@ -59,5 +59,16 @@ public class Institucion {
     public void setSede(List<String> sede) {
         this.sede = sede;
     }
+
+    @Override
+    public String toString() {
+        return "Institucion{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", sede=" + sede +
+                ", direccion=" + direccion +
+                ", asignacion=" + asignacion +
+                '}';
+    }
 }
 
